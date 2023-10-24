@@ -71,4 +71,7 @@ public class Security {
     public void setpurchaseDate(String purchaseDate) {
         this.purchaseDate = purchaseDate;
     }
+    public Portfolio getPortfolio() {
+        return Portfolio;
+    }
 }

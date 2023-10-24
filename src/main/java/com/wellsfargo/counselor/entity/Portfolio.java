@@ -33,6 +33,9 @@ public class Portfolio {
     public String getcreationDate() {
         return creationDate;
     }
+    public Client getClient() {
+        return Client;
+    }
 
     public void setcreationDate(String creationDate) {
         this.creationDate = creationDate;
